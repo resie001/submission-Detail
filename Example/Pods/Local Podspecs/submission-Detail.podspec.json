@@ -1,0 +1,29 @@
+{
+  "name": "submission-Detail",
+  "version": "1.0.0",
+  "summary": "A short description of submission-Detail.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/53486681/submission-Detail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ade resie": "ade.resie@privyid.tech"
+  },
+  "source": {
+    "git": "https://github.com/53486681/submission-Detail.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "submission-Detail/Classes/**/*",
+  "dependencies": {
+    "submission-Core": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

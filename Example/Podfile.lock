@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (5.4.4)
+  - AlamofireNetworkActivityLogger (3.4.0):
+    - Alamofire (~> 5.4.0)
+  - Kingfisher (7.4.1)
+  - ObjectMapper (4.2.0)
+  - PanModal (1.2.7)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - submission-Core (1.0.3):
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - Kingfisher
+    - ObjectMapper
+    - PanModal
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - submission-Detail (1.0.0):
+    - submission-Core
+
+DEPENDENCIES:
+  - submission-Core (from `https://github.com/resie001/submission-Core.git`, branch `main`)
+  - submission-Detail (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - Kingfisher
+    - ObjectMapper
+    - PanModal
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  submission-Core:
+    :branch: main
+    :git: https://github.com/resie001/submission-Core.git
+  submission-Detail:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  submission-Core:
+    :commit: 3315a867218ac6c6e93ceecbdd7fc957b23cdb0c
+    :git: https://github.com/resie001/submission-Core.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AlamofireNetworkActivityLogger: 162ab8aee00e6267a4304d7cc134e13ccfe3bcc5
+  Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  submission-Core: dd2421b8283fa72bb337436ffa9feab5d415c49b
+  submission-Detail: c4e068db5652bc9cbf589a92ef188c80f26c6019
+
+PODFILE CHECKSUM: aa07e9c439917ac544387b8b6fead2fab1624a06
+
+COCOAPODS: 1.11.3
